@@ -146,32 +146,32 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         {
             n1= Integer.parseInt(display.getText().toString());
             operator="plus";
-            display.setText("");
+            display.setText(n1+"");
         }
         if(v.getId()==minus.getId())
         {
             n1= Integer.parseInt(display.getText().toString());
             operator="minus";
-            display.setText("");
+            display.setText(n1+"");
         }
         if(v.getId()==mul.getId())
 
         {
             n1= Integer.parseInt((display.getText().toString()));
             operator="mul";
-            display.setText("");
+            display.setText(n1+"");
         }
         if(v.getId()==moduler.getId())
         {
             n1= Integer.parseInt(((display.getText().toString())));
             operator="moduler";
-            display.setText("");
+            display.setText(n1+"");
         }
         if(v.getId()==divid.getId())
         {
             n1= Integer.parseInt((display.getText().toString()));
             operator="divid";
-            display.setText("");
+            display.setText(n1+"");
         }
 
         if (v.getId()==clear.getId())
